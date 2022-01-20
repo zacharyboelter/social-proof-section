@@ -29,6 +29,31 @@ body {
     background-repeat: no-repeat;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px;
+}
+
+.top-wrapper {
+    display: flex;
+    /* Just splitting this for now, remove this margin */
+    margin-bottom: 200px;
+}
+
+.top-left {
+    flex: 1;
+}
+
+.top-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
 
 
 .attribution {
