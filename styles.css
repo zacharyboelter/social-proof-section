@@ -35,17 +35,32 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 100px 100px;
+    margin: 100px 130px;
 }
 
 .top-wrapper {
     display: flex;
-    /* Just splitting this for now, remove this margin */
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .top-left {
     flex: 1;
+}
+
+.hero-title {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 48px;
+    width: 430px;
+    line-height: 55px;
+    margin-bottom: 1rem;
+}
+
+.hero-copy {
+    font-size: 15px;
+    width: 460px;
+    line-height: 23px;
+    color: var(--dark-grayish-magenta);
 }
 
 .top-right {
@@ -89,9 +104,7 @@ body {
 }
 
 
-.hero-copy {
-    font-size: 15px;
-}
+
 .attribution {
     font-size: 11px;
     text-align: center;
