@@ -14,6 +14,19 @@
 
 img {
     max-width: 100%;
+    border-radius: 50%;
+}
+
+body {
+    height: 100vh;
+    max-width: 1440px;
+    background-image: 
+      url(./images/bg-pattern-bottom-desktop.svg),
+      url(./images/bg-pattern-top-desktop.svg);
+    background-position: 
+      top 100px left 300px,
+      bottom 500px right 800px;
+    background-repeat: no-repeat;
 }
 
 
