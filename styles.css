@@ -165,12 +165,15 @@ body {
     font-size: 15px;
     font-weight: 400;
 }
+
+.avatar {
+    height: 50px;
+}
 .attribution {
     margin-top: 15px;
     font-size: 13px;
     text-align: center;
-  }
-  .attribution a {
+}
+.attribution a {
     color: var(--very-dark-magenta);
-    
-  }
+}
