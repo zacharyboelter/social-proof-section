@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -27,6 +29,7 @@ body {
       top 100px left 300px,
       bottom 500px right 800px;
     background-repeat: no-repeat;
+    font-family: 'Spartan', sans-serif;
 }
 
 .container {
@@ -52,10 +55,43 @@ body {
     align-items: flex-end;
 }
 
+.rating-1 {
+    margin: 10px 100px 8px 0;
+    width: 430px;
+    text-align: center;
+    padding: 15px 1px;
+    border-radius: 5px;
+    background-color: var(--light-grayish-magenta);
+}
+
+.rating-2 {
+    margin: 5px 50px 8px 0;
+    width: 430px;
+    text-align: center;
+    padding: 15px 5px;
+    border-radius: 5px;
+    background-color: var(--light-grayish-magenta);
+}
+
+.rating-3 {
+    margin-top: 5px;
+    width: 430px;
+    text-align: center;
+    padding: 15px 5px;
+    border-radius: 5px;
+    background-color: var(--light-grayish-magenta);
+}
+
+.rating-text {
+    color: var(--very-dark-magenta);
+    font-weight: 500;
+    padding-left: 20px;
+}
 
 
-
-
+.hero-copy {
+    font-size: 15px;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
