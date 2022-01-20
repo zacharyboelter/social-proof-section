@@ -159,6 +159,7 @@ body {
 }
 .buyer {
     color: var(--soft-pink);
+    font-size: 13px;
 }
 
 .card-copy {
